@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brijmohan Gupta | Blog</title>
+
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+
+    <!-- Fonts: Playfair dislpay, Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/icon type">
+    
+    <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+      </script> 
+</head>
+
+<body>
+    <!-- Header starts -->
+    <header>            
+      
+        <!-- Toggler starts -->
+        <div id="toggler-div" class="float-container d-lg-none d-xl-none d-xxl-none">
+          <div id="toggler-span">
+            <button id="navbarToggle" class="navbar-toggler p-0 float-child" type="button" data-bs-toggle="collapse" data-bs-target="#entire-navbar" aria-controls="entire-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa fa-bars text-center" style="margin-top: 1px;"></i></span>
+            </button>
+          </div>
+          
+            <div id="toggler-name" class="float-child">
+              <a href="index.html" style="text-decoration: none; color: #000000;">Brijmohan Gupta</a>
+            </div>
+        </div>
+
+        <!-- Name and Tagline starts -->
+        <div class="d-none d-lg-block d-xl-block d-xxl-block" id="nameAndTagline">
+            <div id="name">Brijmohan Gupta</div>
+            <div id="tagline">GRANDFATHER . LAWYER . WARRIOR</div>
+        </div>
+        <!-- Name and Tagline ends -->
+
+        <!-- Navbar starts -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+ 
+              <div class="collapse navbar-collapse" id="entire-navbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li id="navHome" class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  
+                  <li id="navBlog" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="blog-page.html">Blog</a>
+                  </li>
+
+                  <li id="navAbout" class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer-all">Connect</a>
+                  </li>
+
+                  <form id="search-form" class="d-flex nav-item position-relative">
+                    <input id="search-input" class="mx-auto border-0" type="search" placeholder="Search..." aria-label="Search">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search position-absolute top-50 end-0 translate-middle" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg></a>
+                </form>
+                <script type="text/javascript">
+                  document.getElementById('#search-form').onsubmit = function() {
+                      window.location = 'http://www.google.com/search?q=site:vidhiruparelblog.com ' + document.getElementById('#search-input').value;
+                      return false;
+                  }
+                </script>
+
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/vidhi-ruparel/" class="fa fa-linkedin nav-link" target="_blank"></a>
+                    <a href="https://www.instagram.com/vidhi_1126/" class="fa fa-instagram nav-link" target="_blank"></a>
+                    <a href="https://www.facebook.com/vidhi.ruparel.589" class="fa fa-facebook nav-link" target="_blank"></a>
+                </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Navbar ends -->
+    </header>
+    <!-- Header ends -->
+
+    <div class="all-posts"><a href="blog-page.html">All posts</a></div>
+    
+    <!-- Blog post starts -->
+    <div class="container-fluid blog-post">
+        <p id="blog-post-date"><small class="text-muted">Aug 27</small></p>
+        <h1 class="post-headline">Love you dad and mom</h1>
+        <img class="post-img text-muted" src="images/neelima.jpeg" class="img-fluid" alt="Family">
+        
+        <p class="author-name">By Neelima Ruparel</p>
+        <p class="intro para">
+          May 2009. I cannot forget that day and as I remember that time, a cloud of fear still passes over my mental landscape. It was afternoon and I and Dad were going to a bank. Since the bank was nearby I told dad that it's okay if we dont wear a belt. However, dad insisted that we should always wear it, however near our destination may be. And he was so right, it was very important for our safety apart from the consideration of law. 
+        </p>
+
+        <p class="content-1 para">
+          And if we would not have wore belts that day, I would not have been writing this story.
+          As dad was driving towards the bank which was hardly 2 km from our house and we were passing a cross road, a speeding car came and hit us strongly. We were riding at nearly 35 km/hour speed since it was a cross road and pedestrians were also moving on the roadsides. However the car that hit us must be riding at a speed of more than 70 km/hour and it just dashed into us. We could see the car coming but within a flash of a second it just banged into us and phew..our car turned upside down and was dragged on the road. We could not understand what was happening but once the car stopped we found ourselves hanging upside down with the belt.           
+        </p>
+
+        <p class="content-2 para">
+          With the help of some people on the road, we came out. To everyone's surprise, neither dad nor I got even a slightest bruise. This was miraculous and I totally attribute this to my dad's good deeds.  I always admire my father as a balanced personality who stands by his principles of simplicity and truth.   A lawyer by profession, he always helps people in need though they would not have enough money to pay. Not just law, he is an expert in physics and my mathematics hero too. In fact both my parents played a great role in my education. My mom would teach me Social Science and English and my dad used to teach me Mathematics till Grade 12. He still helps my daughter in solving her math problems. Not only that , both mom and dad play a great role in imbibing moral values in all of us three children by following the principle of practicing first and then preaching.
+        </p>
+
+        <p class="content-2 para">
+          Coming back to our 2009 kissa, many people surrounded us on road that day after the accident and I was very much confused and fearful. But I knew my strong dad would handle it all. He sent me home with a known person in the mob while he stood there on the road near our car alone to decide on further things to be done. Someone in the mob stole away his cell phone that was very dear to him as my sister had gifted him, and he was sad, but stood there bravely. We were lucky to get back his glasses, however the car was shattered and had to be sent to garage.
+      </p>
+
+        <p class="conclusion para">
+          Whenever I think about this incident, I always feel that dad is so strong, calm and peaceful even in great stressful situations, while I get panic even with slightest discomfort. There are so many lessons to be learnt from our parents whether it is being disciplined, time conscious, or to be calm and patient. Sometimes I feel can I be ever like my parents?
+        </p>
+
+    </div>
+    <!-- Blog post ends -->
+
+    <!-- Footer starts -->
+    <footer id="footer-all">
+        <div id="entire-footer" class="container-fluid">
+            <div id="title-footer" class="text-center">Let Me Know What You Think!</div>
+            <div id="input-fields">
+              <div id="names-field" class="row">
+                <div class="col-6">
+                  <input type="text" class="form-control d-none d-sm-block" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control d-none d-sm-block" placeholder="Last name" aria-label="Last name">
+                </div>
+                <div class="col-12">
+                  <input id="name-only" type="text" class="form-control d-block d-sm-none" placeholder="Name" aria-label="Name">
+                </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-12">
+                      <input type="text" class="form-control" placeholder="Email" aria-label="First name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                      <input type="text" class="form-control" placeholder="Leave us a message..." aria-label="First name">
+                    </div>
+                </div>
+
+                <div class="col text-center">
+                    <button type="submit" class="btn btn-light">Submit</button>
+                </div>                
+            </div> <!-- Input fields -->
+        </div> <!-- Entire footer-->
+       <div id="end-footer" class="text-center">Designed and Developed by Vidhi Ruparel | All Rights Reserved</div> <!-- Copyright line -->
+    </footer>
+    <!-- Footer ends -->
+
+    <!-- Scroll arrow starts -->
+    <button id="back2Top" title="Go to top">
+      <i class="fa fa-chevron-up text-center" style="margin-top: 1px;"></i>
+    </button>
+    <!-- Scroll arrow ends -->
+
+    <!-- jQuery and JavaScript-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

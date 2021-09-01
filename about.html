@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brijmohan Gupta | About</title>
+
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+
+    <!-- Fonts: Playfair dislpay, Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/icon type">
+
+    <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+      </script> 
+</head>
+
+<body>
+    <!-- Header starts -->
+    <header>            
+      
+        <!-- Toggler starts -->
+        <div id="toggler-div" class="float-container d-lg-none d-xl-none d-xxl-none">
+          <div id="toggler-span">
+            <button id="navbarToggle" class="navbar-toggler p-0 float-child" type="button" data-bs-toggle="collapse" data-bs-target="#entire-navbar" aria-controls="entire-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa fa-bars text-center" style="margin-top: 1px;"></i></span>
+            </button>
+          </div>
+          
+            <div id="toggler-name" class="float-child">
+              <a href="index.html" style="text-decoration: none; color: #000000;">Brijmohan Gupta</a>
+            </div>
+        </div>
+
+        <!-- Name and Tagline starts -->
+        <div class="d-none d-lg-block d-xl-block d-xxl-block" id="nameAndTagline">
+            <div id="name">Brijmohan Gupta</div>
+            <div id="tagline">GRANDFATHER . LAWYER . WARRIOR</div>
+        </div>
+        <!-- Name and Tagline ends -->
+
+        <!-- Navbar starts -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+ 
+              <div class="collapse navbar-collapse" id="entire-navbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li id="navHome" class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  
+                  <li id="navBlog" class="nav-item">
+                    <a class="nav-link" href="blog-page.html">Blog</a>
+                  </li>
+
+                  <li id="navAbout" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer-all">Connect</a>
+                  </li>
+
+                  <form id="search-form" class="d-flex nav-item position-relative">
+                    <input id="search-input" class="mx-auto border-0" type="search" placeholder="Search..." aria-label="Search">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search position-absolute top-50 end-0 translate-middle" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg></a>
+                </form>
+                <script type="text/javascript">
+                  document.getElementById('#search-form').onsubmit = function() {
+                      window.location = 'http://www.google.com/search?q=site:vidhiruparelblog.com ' + document.getElementById('#search-input').value;
+                      return false;
+                  }
+                </script>
+
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/vidhi-ruparel/" class="fa fa-linkedin nav-link" target="_blank"></a>
+                    <a href="https://www.instagram.com/vidhi_1126/" class="fa fa-instagram nav-link" target="_blank"></a>
+                    <a href="https://www.facebook.com/vidhi.ruparel.589" class="fa fa-facebook nav-link" target="_blank"></a>
+                </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Navbar ends -->
+    </header>
+    <!-- Header ends -->
+
+<!-- About Content starts -->
+<div id="about-title" class="text-center">OUR STORY</div>
+
+<div id="entire-about" class="container-fluid position-relative">
+<div id="about-content">
+    <p id="about-1" class="about-description m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porta augue suscipit, blandit massa ac, pretium nunc. Sed eget fringilla felis, id dapibus mauris. Curabitur lobortis, tellus et aliquam feugiat, lorem erat commodo ipsum, sed blandit turpis sapien vitae nulla. Fusce tristique lacinia tellus. Proin et posuere sem, et euismod quam. Suspendisse potenti. Curabitur dictum sem semper diam efficitur, non tempus felis elementum. Proin scelerisque lobortis lectus. Maecenas nisi justo, dictum ut diam auctor, posuere bibendum nisl. Aenean sollicitudin ipsum at ante semper, vitae porta ipsum commodo. Proin eget ipsum nec nunc mollis blandit sed nec nulla. Suspendisse ut justo libero.</p>
+
+    <p class="about-description">Pellentesque vel feugiat felis. Ut tempus faucibus sem, ac volutpat purus tempus id. Quisque ac finibus risus. Fusce eu sodales felis, quis eleifend erat. Sed faucibus, mi nec interdum suscipit, mi lorem egestas nunc, non ullamcorper tortor sem a mauris. Nulla eu turpis ac mi interdum condimentum. Mauris ullamcorper pharetra ante, quis viverra leo sodales fringilla. Mauris aliquet purus ac nisi pulvinar, quis convallis nunc tristique. Vivamus sit amet lectus nec erat condimentum sagittis quis sed urna. Cras aliquet ex turpis, eu ornare turpis euismod pretium. Nullam bibendum a magna at condimentum. Morbi non condimentum ligula. Donec eu lacus ut ligula commodo pellentesque. Praesent vel faucibus mi. Donec quis pretium lorem.</p>
+</div>
+
+<div id="about-pic"> 
+    <img src="images/about-img.jpeg" class="img-fluid" alt="About Us"> 
+</div>
+</div>
+<!-- About Content ends-->
+
+<!-- Footer starts -->
+<footer id="footer-all">
+    <div id="entire-footer" class="container-fluid">
+        <div id="title-footer" class="text-center">Let Me Know What You Think!</div>
+        <div id="input-fields">
+          <div id="names-field" class="row">
+            <div class="col-6">
+              <input type="text" class="form-control d-none d-sm-block" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col-6">
+              <input type="text" class="form-control d-none d-sm-block" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col-12">
+              <input id="name-only" type="text" class="form-control d-block d-sm-none" placeholder="Name" aria-label="Name">
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-12">
+                  <input type="text" class="form-control" placeholder="Email" aria-label="First name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                  <input type="text" class="form-control" placeholder="Leave us a message..." aria-label="First name">
+                </div>
+            </div>
+
+            <div class="col text-center">
+                <button type="submit" class="btn btn-light">Submit</button>
+            </div>                
+        </div> <!-- Input fields -->
+    </div> <!-- Entire footer-->
+   <div id="end-footer" class="text-center">Designed and Developed by Vidhi Ruparel | All Rights Reserved</div> <!-- Copyright line -->
+</footer>
+<!-- Footer ends -->
+
+<!-- Scroll arrow starts -->
+<button id="back2Top" title="Go to top">
+  <i class="fa fa-chevron-up text-center" style="margin-top: 1px;"></i>
+</button>
+<!-- Scroll arrow ends -->
+
+<!-- jQuery and JavaScript-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+<script src="js/ajax-utils.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

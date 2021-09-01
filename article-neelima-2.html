@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brijmohan Gupta | Blog</title>
+
+    <!--Link to CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css">
+
+    <!-- Fonts: Playfair dislpay, Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+
+    <!-- Icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="images/favicon.ico" type="image/icon type">
+    
+    <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+      </script> 
+</head>
+
+<body>
+    <!-- Header starts -->
+    <header>            
+      
+        <!-- Toggler starts -->
+        <div id="toggler-div" class="float-container d-lg-none d-xl-none d-xxl-none">
+          <div id="toggler-span">
+            <button id="navbarToggle" class="navbar-toggler p-0 float-child" type="button" data-bs-toggle="collapse" data-bs-target="#entire-navbar" aria-controls="entire-navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa fa-bars text-center" style="margin-top: 1px;"></i></span>
+            </button>
+          </div>
+          
+            <div id="toggler-name" class="float-child">
+              <a href="index.html" style="text-decoration: none; color: #000000;">Brijmohan Gupta</a>
+            </div>
+        </div>
+
+        <!-- Name and Tagline starts -->
+        <div class="d-none d-lg-block d-xl-block d-xxl-block" id="nameAndTagline">
+            <div id="name">Brijmohan Gupta</div>
+            <div id="tagline">GRANDFATHER . LAWYER . WARRIOR</div>
+        </div>
+        <!-- Name and Tagline ends -->
+
+        <!-- Navbar starts -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+ 
+              <div class="collapse navbar-collapse" id="entire-navbar">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li id="navHome" class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  
+                  <li id="navBlog" class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="blog-page.html">Blog</a>
+                  </li>
+
+                  <li id="navAbout" class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer-all">Connect</a>
+                  </li>
+
+                  <form id="search-form" class="d-flex nav-item position-relative">
+                    <input id="search-input" class="mx-auto border-0" type="search" placeholder="Search..." aria-label="Search">
+                    <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-search position-absolute top-50 end-0 translate-middle" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg></a>
+                </form>
+                <script type="text/javascript">
+                  document.getElementById('#search-form').onsubmit = function() {
+                      window.location = 'http://www.google.com/search?q=site:vidhiruparelblog.com ' + document.getElementById('#search-input').value;
+                      return false;
+                  }
+                </script>
+
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/vidhi-ruparel/" class="fa fa-linkedin nav-link" target="_blank"></a>
+                    <a href="https://www.instagram.com/vidhi_1126/" class="fa fa-instagram nav-link" target="_blank"></a>
+                    <a href="https://www.facebook.com/vidhi.ruparel.589" class="fa fa-facebook nav-link" target="_blank"></a>
+                </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Navbar ends -->
+    </header>
+    <!-- Header ends -->
+
+    <div class="all-posts"><a href="blog-page.html">All posts</a></div>
+    
+    <!-- Blog post starts -->
+    <div class="container-fluid blog-post">
+        <p id="blog-post-date"><small class="text-muted">Aug 30</small></p>
+        <h1 class="post-headline">Dad and me on an expedition</h1>
+        <img class="post-img text-muted" src="images/neelima-2.jpeg" class="img-fluid" alt="Family">
+        
+        <p class="author-name">By Neelima Ruparel</p>
+        <p class="intro para">
+            When I look back in past, I feel I was sometimes doing funny things. While in grade 10, I decided on one fine day that I would climb the Pavagadh mountain (near Baroda) and go to the temple there if I would get good results. And there we were..after the results. However the critical thing was who else would take me and accompany me to climb so high as I could not do it alone. I never thought about this while taking the decision to climb. 
+        </p>
+
+        <p class="content-1 para">
+            But my dad was there for me ready to climb the whole mountain. In fact, he was more fit than me to climb because of his efforts ro keep himself healthy. I remember since I was very young, dad would do different types of exercises and yogasanas in morning. Till today he keeps himself active and goes for a walk apart from his breathing and eye exercises. After my maternal grandfather, I have found one person, my dad, who follows a disciplined and timed routine for his day-to-day activities. (However now I also feel that my little sister and brother are also following his footsteps).
+        </p>
+
+        <p class="content-2 para">
+            So it was decided that dad would take me there and so we started. The task was huge and it was quite hot as it was summer time. We took water and some snacks including grapes with us. And then we started climbing. This was one of the finest time that I spent with my dad in my childhood. As we started climbing, the initial one hour was fine. But then as the sun started to get overhead, we got tired. So we took breaks in between and in those breaks dad gave me grapes to eat. He said as grapes have sucrose we will get instant energy. And it was so true. Dad kept my spirits high and motivated me during the whole hike. Thus we ultimately climbed the Pavagadh mountain and could worship in the temple. 
+      </p>
+
+      <p class="content-2 para">
+        Such is the spirit of dad. In fact he would always be there for us in the toughest of times. I remember whenever I would be sick and not be able to get up from bed, he would bring all medicines and water to me. If I would get up early morning to study, he would prepare tea or milk for me so early in morning. 
+    </p>
+
+        <p class="conclusion para">
+            I love you dad and feel so lucky to be your child...
+        </p>
+
+    </div>
+    <!-- Blog post ends -->
+
+    <!-- Footer starts -->
+    <footer id="footer-all">
+        <div id="entire-footer" class="container-fluid">
+            <div id="title-footer" class="text-center">Let Me Know What You Think!</div>
+            <div id="input-fields">
+              <div id="names-field" class="row">
+                <div class="col-6">
+                  <input type="text" class="form-control d-none d-sm-block" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control d-none d-sm-block" placeholder="Last name" aria-label="Last name">
+                </div>
+                <div class="col-12">
+                  <input id="name-only" type="text" class="form-control d-block d-sm-none" placeholder="Name" aria-label="Name">
+                </div>
+            </div>
+
+                <div class="row">
+                    <div class="col-12">
+                      <input type="text" class="form-control" placeholder="Email" aria-label="First name">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                      <input type="text" class="form-control" placeholder="Leave us a message..." aria-label="First name">
+                    </div>
+                </div>
+
+                <div class="col text-center">
+                    <button type="submit" class="btn btn-light">Submit</button>
+                </div>                
+            </div> <!-- Input fields -->
+        </div> <!-- Entire footer-->
+       <div id="end-footer" class="text-center">Designed and Developed by Vidhi Ruparel | All Rights Reserved</div> <!-- Copyright line -->
+    </footer>
+    <!-- Footer ends -->
+
+    <!-- Scroll arrow starts -->
+    <button id="back2Top" title="Go to top">
+      <i class="fa fa-chevron-up text-center" style="margin-top: 1px;"></i>
+    </button>
+    <!-- Scroll arrow ends -->
+
+    <!-- jQuery and JavaScript-->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
